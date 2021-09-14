@@ -9,7 +9,7 @@ Route::get('/', function () {
 
 
 Route::post('/registration/new_user', 'MainController@registration_check');
-    
+
 
 Route::get('/registration/new_user', function () {
     return view('new_user');
